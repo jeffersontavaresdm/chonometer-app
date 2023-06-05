@@ -1,11 +1,11 @@
-import React from "react";
-import { Text, TouchableOpacity, View } from "react-native";
-import chronometerStyles from "./components/styles/chonometer.styles";
-import ChronometerBGIMG from "./components/ChonometerBGIMG";
+import React from 'react';
+import {Text, TouchableOpacity, View} from 'react-native';
+import chronometerStyles from './components/styles/chonometer.styles';
+import ChronometerBGIMG from './components/ChonometerBGIMG';
 
 const App = () => {
   const [isDisabled, setIsDisabled] = React.useState<boolean>(true);
-  const { timer, isRunning, start, reset } = useChronometer(setIsDisabled);
+  const {timer, isRunning, start, reset} = useChronometer(setIsDisabled);
 
   React.useEffect(() => {
     if (timer === 0) {
@@ -18,15 +18,17 @@ const App = () => {
   return (
     <View style={chronometerStyles.container}>
       <ChronometerBGIMG />
-      <Text style={chronometerStyles.timer}>{timer == 0 ? "0" : timer.toFixed(1)}</Text>
+      <Text style={chronometerStyles.timer}>
+        {timer === 0 ? '0' : timer.toFixed(1)}
+      </Text>
       <View style={chronometerStyles.buttonArea}>
-        <TouchableOpacity
-          style={chronometerStyles.button}
-          onPress={start}>
-          <Text style={chronometerStyles.buttonText}>{isRunning ? "PAUSE" : "START"}</Text>
+        <TouchableOpacity style={chronometerStyles.button} onPress={start}>
+          <Text style={chronometerStyles.buttonText}>
+            {isRunning ? 'PAUSE' : 'START'}
+          </Text>
         </TouchableOpacity>
         <TouchableOpacity
-          style={[chronometerStyles.button, { opacity: isDisabled ? 0.5 : 1 }]}
+          style={[chronometerStyles.button, {opacity: isDisabled ? 0.5 : 1}]}
           onPress={reset}
           disabled={isDisabled}>
           <Text style={chronometerStyles.buttonText}>CLEAN</Text>
@@ -48,7 +50,7 @@ const useChronometer = (setIsDisabled: (isDisable: boolean) => void) => {
       setTimerId(0);
     } else {
       let handlerInterval = () => {
-        setTimer((prevState) => prevState + 0.1);
+        setTimer(prevState => prevState + 0.1);
       };
 
       const intervalId = setInterval(handlerInterval, 100);
@@ -63,6 +65,6 @@ const useChronometer = (setIsDisabled: (isDisable: boolean) => void) => {
     setIsDisabled(true);
   };
 
-  return { timer, isRunning, start, reset };
+  return {timer, isRunning, start, reset};
 };
 export default App;

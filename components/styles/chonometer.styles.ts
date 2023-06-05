@@ -1,40 +1,40 @@
-import { StyleSheet } from "react-native";
+import {StyleSheet} from 'react-native';
 
 const chronometerStyles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "#fff",
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#fff',
   },
   chronometer: {},
   timer: {
     fontSize: 100,
-    fontWeight: "bold",
-    color: "#000",
-    position: "absolute",
+    fontWeight: 'bold',
+    color: '#000',
+    position: 'absolute',
   },
   button: {
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
     borderWidth: 3,
     borderRadius: 30,
-    borderColor: "#00aaef",
+    borderColor: '#00aaef',
     padding: 8,
     width: 160,
     margin: 12,
-    backgroundColor: "rgba(255, 255, 255, 0.5)",
+    backgroundColor: 'rgba(255, 255, 255, 0.5)',
   },
   buttonArea: {
-    flexDirection: "row",
+    flexDirection: 'row',
     marginTop: 520,
   },
   buttonText: {
     fontSize: 16,
-    fontWeight: "bold",
-    color: "#222",
-    fontStyle: "italic",
+    fontWeight: 'bold',
+    color: '#222',
+    fontStyle: 'italic',
   },
 });
 
