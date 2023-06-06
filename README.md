@@ -2,7 +2,11 @@
 
 Um aplicativo de cronômetro simples desenvolvido em React Native.
 
-![Screenshot](assets/ss/screenshot.png)
+<div align="center">
+   
+   ![Screenshot](assets/ss/screenshot.png)
+   
+</div>
 
 ## Funcionalidades
 
