@@ -44,3 +44,13 @@ Contribuições são bem-vindas! Se você quiser contribuir para este projeto, s
 * Faça as alterações necessárias e faça commit das mudanças: git commit -m 'Minha contribuição'
 * Envie as alterações para o seu fork: git push origin minha-contribuicao
 * Abra um Pull Request no repositório original
+
+#
+
+### Fique a vontade para ver outros projetos e fazer contribuições lá também!
+
+<div align="center">
+  <a  href="https://github.com/jeffersontavaresdm">
+    <img width="30%" src="https://github.com/jeffersontavaresdm/jeffersontavaresdm/blob/main/images/call-me-shaq.gif" width="25"/>
+  </a>
+</div>
