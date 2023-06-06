@@ -44,4 +44,3 @@ Contribuições são bem-vindas! Se você quiser contribuir para este projeto, s
 * Faça as alterações necessárias e faça commit das mudanças: git commit -m 'Minha contribuição'
 * Envie as alterações para o seu fork: git push origin minha-contribuicao
 * Abra um Pull Request no repositório original
-* Certifique-se de seguir nossas diretrizes de contribuição e de respeitar o código de conduta.
