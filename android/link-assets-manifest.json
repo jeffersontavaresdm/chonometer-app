@@ -1,0 +1,13 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Orbitron.ttf",
+      "sha1": "51441780e1af77d5bdbfe1fffad3a90644d8ee76"
+    },
+    {
+      "path": "assets/fonts/PlusJakartaSans-Bold.ttf",
+      "sha1": "1596df4f30a8568e99a002c2d4d6d20fd1453a6a"
+    }
+  ]
+}

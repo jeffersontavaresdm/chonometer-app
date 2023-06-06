@@ -5,7 +5,7 @@ const ChronometerBGIMG = () => {
   return (
     <View style={styles.imageView}>
       <Image
-        source={require('../assets/chonometer.jpg')}
+        source={require('../../assets/chonometer.jpg')}
         style={styles.image}
       />
     </View>

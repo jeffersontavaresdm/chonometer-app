@@ -13,6 +13,7 @@ const chronometerStyles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#000',
     position: 'absolute',
+    fontFamily: 'fantasy',
   },
   button: {
     display: 'flex',
